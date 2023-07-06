@@ -3,6 +3,10 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.common-hr{
+    width: 100%;
+    border: 2px solid #414046;
+}
 /* Heading part START here */
 .menu-container{
     background-color: rgb(70, 69, 69);
@@ -30,6 +34,7 @@
     width: 150px;
 }
 /* Heading part END here */
+
 /* Banner part START here */
 .banner-container{
     background-image: url(images/background.png), linear-gradient(45deg,#000, #252525);
@@ -64,3 +69,19 @@ button{
     cursor: pointer;
 }
 /* Banner part END here */
+
+/* About-section START here */
+.about-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-tittle{
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* About-section END here */
