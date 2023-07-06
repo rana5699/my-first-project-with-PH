@@ -3,3 +3,64 @@
     margin: 0%;
     box-sizing: border-box;
 }
+/* Heading part START here */
+.menu-container{
+    background-color: rgb(70, 69, 69);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    list-style: none;
+}
+.menu-item{
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item:hover{
+    color: aqua;
+}
+.item{
+    padding-right: 30px;
+    text-align: center;
+}
+.logo{
+    width: 150px;
+}
+/* Heading part END here */
+/* Banner part START here */
+.banner-container{
+    background-image: url(images/background.png), linear-gradient(45deg,#000, #252525);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.photo{
+    width: 230px;
+    height: 250px;
+}
+.tittle{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+.description{
+    font-size: 20px;
+    margin: 20px 0px;
+    line-height: 30px;
+}
+button{
+    padding: 10px 20px;
+    font: 20px bold;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+/* Banner part END here */
