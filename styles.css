@@ -21,14 +21,13 @@
     display: flex;
     text-transform: uppercase;
     font-weight: bold;
-    cursor: pointer;
-}
-.item:hover{
-    color: aqua;
-}
+    cursor: pointer;}
 .item{
     padding-right: 30px;
     text-align: center;
+}
+.item:hover{
+    color: aqua;
 }
 .logo{
     width: 150px;
@@ -85,3 +84,45 @@ button{
     font-weight: bold;
 }
 /* About-section END here */
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    transition: linear.5s;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box-head{
+    color: #fff;
+}
+.services-logo{
+    width: 70px;
+}
+.box-tittle{
+    padding: 5px;
+}
+.box-info{
+    padding: 5px;
+}
+.btn{
+    background-color: gray;
+    margin-top: 10px;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: red;
+    color: #fff;
+}
+.Our-services-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Our-services-section{
+    background-color: rgb(20, 17, 17);
+}
